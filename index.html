@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknolojik Yemekler</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Quattrocento:wght@700&family=Roboto+Condensed:wght@700&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="iteration-1/logo.svg" alt="Teknolojik Yemekler Logo" class="logo-img">
+            <span class="script-tag">fırsatı kaçırma</span>
+            <h2 class="hero-title">KOD ACIKTIRIR<br>PİZZA, DOYURUR.</h2>
+            <button class="btn-yellow">ACIKTIM</button>
+        </div>
+    </header>
+
+    <!-- KATEGORİ BAR -->
+    <nav class="category-nav">
+        <div class="category-container">
+            <a href="#" class="cat-item">
+                <img src="iteration-2/icons/1.svg" alt="YENİ! Kore">
+                <span>YENİ! Kore</span>
+            </a>
+            <a href="#" class="cat-item active">
+                <img src="iteration-2/icons/2.svg" alt="Pizza">
+                <span>Pizza</span>
+            </a>
+            <a href="#" class="cat-item">
+                <img src="iteration-2/icons/3.svg" alt="Burger">
+                <span>Burger</span>
+            </a>
+            <a href="#" class="cat-item">
+                <img src="iteration-2/icons/4.svg" alt="Kızartmalar">
+                <span>Kızartmalar</span>
+            </a>
+            <a href="#" class="cat-item">
+                <img src="iteration-2/icons/5.svg" alt="Fast Food">
+                <span>Fast Food</span>
+            </a>
+            <a href="#" class="cat-item">
+                <img src="iteration-2/icons/6.svg" alt="Gazlı İçecek">
+                <span>Gazlı İçecek</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- PROMOSYON KARTLARI SECTION -->
+    <section class="promo-section">
+        <div class="promo-container">
+            <!-- Sol Büyük Kırmızı Kart -->
+            <article class="promo-card card-large" style="background-image: url('iteration-2/cta/kart-1.png');">
+                <div class="promo-content">
+                    <h2>Özel<br>Lezzetus</h2>
+                    <p>Position: Absolute Acı Burger</p>
+                    <button class="btn-white-red">SİPARİŞ VER</button>
+                </div>
+            </article>
+
+            <!-- Sağ İkili Kolon -->
+            <div class="promo-right-column">
+                <!-- Sağ Üst Koyu Kart -->
+                <article class="promo-card card-small-dark" style="background-image: url('iteration-2/cta/kart-2.png');">
+                    <div class="promo-content">
+                        <h3>Hackathlon<br>Burger Menü</h3>
+                        <button class="btn-white-red">SİPARİŞ VER</button>
+                    </div>
+                </article>
+
+                <!-- Sağ Alt Açık Krem Kart -->
+                <article class="promo-card card-small-cream" style="background-image: url('iteration-2/cta/kart-3.png');">
+                    <div class="promo-content">
+                        <h3 class="cream-title"><span>Çoooook</span> hızlı<br>npm gibi kurye</h3>
+                        <button class="btn-white-red">SİPARİŞ VER</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+<!-- ÜRÜNLER SECTION -->
+    <main class="products-section">
+        <header class="products-header">
+            <span class="script-subtitle">en çok paketlenen menüler</span>
+            <h2>Acıktıran Kodlara Doyuran Lezzetler</h2>
+        </header>
+
+        <!-- Kategori Filtre Butonları -->
+        <div class="product-filters">
+            <button class="filter-btn">
+                <img src="iteration-2/icons/1.svg" alt=""> Ramen
+            </button>
+            <button class="filter-btn active">
+                <img src="iteration-2/icons/2.svg" alt=""> Pizza
+            </button>
+            <button class="filter-btn">
+                <img src="iteration-2/icons/3.svg" alt=""> Burger
+            </button>
+            <button class="filter-btn">
+                <img src="iteration-2/icons/4.svg" alt=""> French fries
+            </button>
+            <button class="filter-btn">
+                <img src="iteration-2/icons/5.svg" alt=""> Fast food
+            </button>
+            <button class="filter-btn">
+                <img src="iteration-2/icons/6.svg" alt=""> Soft drinks
+            </button>
+        </div>
+
+        <!-- Tasarımdaki Gibi Sadece 3 Tane Ürün Kartı -->
+        <div class="product-grid">
+            <article class="product-card">
+                <img src="iteration-2/pictures/food-1.png" alt="Terminal Pizza">
+                <h4>Terminal Pizza</h4>
+                <div class="product-meta">
+                    <span class="rating">4.9</span>
+                    <span class="reviews">(200)</span>
+                    <span class="price">60₺</span>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="iteration-2/pictures/food-2.png" alt="Position Absolute Acı Pizza">
+                <h4>Position Absolute Acı Pizza</h4>
+                <div class="product-meta">
+                    <span class="rating">4.9</span>
+                    <span class="reviews">(928)</span>
+                    <span class="price">72₺</span>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="iteration-2/pictures/food-3.png" alt="useEffect Tavuklu Burger">
+                <h4>useEffect Tavuklu Burger</h4>
+                <div class="product-meta">
+                    <span class="rating">4.7</span>
+                    <span class="reviews">(204)</span>
+                    <span class="price">84₺</span>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <img src="iteration-2/Footer/logo-footer.svg" alt="Teknolojik Yemekler" class="footer-logo-img">
+                <ul class="contact-list">
+                    <li><img src="iteration-2/footer/icons/icon-1.png" alt=""> 341 Lobachevsky St, İstanbul Türkiye</li>
+                    <li><img src="iteration-2/footer/icons/icon-2.png" alt=""> aciktim@teknolojikyemekler.com</li>
+                    <li><img src="iteration-2/footer/icons/icon-3.png" alt=""> +90 216 123 45 67</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Hot Menu</h3>
+                <ul class="menu-list">
+                    <li><a href="#">Terminal Pizza</a></li>
+                    <li><a href="#">5 Kişilik Hackathlon Pizza</a></li>
+                    <li><a href="#">useEffect Tavuklu Burger</a></li>
+                    <li><a href="#">Beyaz Çoook Fast Pizza</a></li>
+                    <li><a href="#">Testler Geçti Mutlu Burger</a></li>
+                    <li><a href="#">Position Absolute Acı Burger</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Instagram</h3>
+                <div class="insta-grid">
+                    <img src="iteration-2/Footer/insta/li-0.png" alt="Insta 0">
+                    <img src="iteration-2/Footer/insta/li-1.png" alt="Insta 1">
+                    <img src="iteration-2/Footer/insta/li-2.png" alt="Insta 2">
+                    <img src="iteration-2/Footer/insta/li-3.png" alt="Insta 3">
+                    <img src="iteration-2/Footer/insta/li-4.png" alt="Insta 4">
+                    <img src="iteration-2/Footer/insta/li-5.png" alt="Insta 5">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Teknolojik Yemekler.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
